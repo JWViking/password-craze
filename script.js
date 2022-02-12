@@ -60,7 +60,12 @@ function generatePassword() {
       newPassword += possibleCharacters.charAt(randomNumb);
     }
     return newPassword; // the important thing is the value going to writePassword
-  };
+  }
+  else {
+    window.alert("Please choose a password length")
+    writePassword();
+  }
+  
 };
 
 // Add event listener to generate button
