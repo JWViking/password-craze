@@ -63,19 +63,5 @@ function generatePassword() {
   };
 };
 
-
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-// to add two variables
-// someVar = someVar + otherVar
-// someVar += otherVar
-
-// possibleCharacters = "ABCDEFGHIJLMNOPQRSTUVWXYZ"
-// user chooses 8 characters for the password length
-// is this in parameter? Yes
-// for loop runs
-// i goes from 0 to 7
-// randomNumb gets a value between 0 and 25
-// we add the character at randomNumb to the password string
